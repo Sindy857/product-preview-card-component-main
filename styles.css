@@ -93,6 +93,12 @@ button {
     background-position-y: center;
 }
 
+button:hover {
+    background-color: #2e765c;
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
 @media screen and (max-width: 600px){
     section#image {
         
